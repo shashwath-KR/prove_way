@@ -1,0 +1,83 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+height: 100%;
+width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 34, 34);
+}
+
+.card {
+    width: 45%;
+    height: 90%;
+    background-color: rgb(235, 241, 243);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 15%;
+    width: 65%;
+}
+
+h1 {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+h1::before, h1::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid rgb(189, 180, 180);
+    margin: 0 10px;
+  }
+
+ .items {
+   width: 85%;
+   height: 90%;
+   margin: auto; 
+ } 
+
+ .box1, .box2, .box3 {
+    width: 95%;
+    height: 22%;
+    border: 1px solid rgb(97, 88, 84);
+    margin: 10px;
+ }
+
+ .input1, .input2, .input3 {
+    width: 20px;
+    height: 20px;
+ }
+
+ .content1, .content2, .content3 {
+   margin-top: 30px;
+   margin-left: 20px;
+ }
+
+ .option1, .option2 {
+    width: 25%;
+    height: 25px;
+    margin: 5px;
+ }
+
+ .showContent1, .showContent2, .showContent3{
+  width: 60%;
+  height: 50%;
+ }
+  
